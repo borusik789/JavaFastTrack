@@ -22,6 +22,8 @@ public class ArrayLogic {
 		// below.
 		int[] array2 = { 1, 2, 3, 4 };
 
+		int[] arr = {1,2,3,4,5,};
+
 		// if we just do this int[] array3; , we are creating a reference of the array
 		// in the stack memory
 		// but there is no array yet.
@@ -37,8 +39,8 @@ public class ArrayLogic {
 		a = 10;
 		
 		// for int the initial value is 0, for boolean it is false
-		for (int i = 0; i < array3.length; i++) {
-			System.out.print(array3[i] + " ");
+		for (int j : array3) {
+			System.out.print(j + " ");
 		}
 		
 		boolean[] bool = new boolean[5];

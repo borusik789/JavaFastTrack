@@ -23,4 +23,4 @@ public class StaticPractice {
 		ConstructorPrac obj = new ConstructorPrac();
 	}
 	}
-}
+

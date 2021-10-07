@@ -7,7 +7,7 @@ public class TwoSum {
 
 		// the purpose of that is to find the target number by adding two numbers from
 		// the given array
-		int[] array = { 1, 2, 3, 4 };
+		int[] array = { 1, 2, 3, 4, 3 };
 		int targetNumber = 7;
 		
 		int[] pair = twoSum(array, targetNumber); // I need to return two numbers\
@@ -23,6 +23,7 @@ public class TwoSum {
 			for (int j = i + 1; j < arr.length; j++) {
 				if(arr[i] + arr[j] == target) {
 					//return the index of the numbers that give us the target number
+//					return new int[] {arr[i], arr[j]};
 					array[0] = i;
 					array[1] = j;
 				}
